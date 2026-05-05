@@ -11,12 +11,34 @@ O projeto simula candidatos de matching por pedido e escolhe o melhor entregador
 - atraso estimado no pickup;
 - utilização do entregador.
 
+## Objetivo analítico
+
+O projeto trata driver assignment como um problema inicial de **ranking / scoring**, não ainda como uma camada completa de optimization.
+
+Isso é útil em entrevista porque mostra o primeiro passo correto:
+
+- definir os sinais relevantes;
+- construir um score auditável;
+- medir o perfil médio das escolhas;
+- só depois evoluir para matching mais sofisticado.
+
 ## O que o projeto faz
 
 1. gera candidatos sintéticos de order-driver matching;
 2. calcula um score por candidato;
 3. escolhe o melhor candidato por pedido;
 4. resume a qualidade da política de atribuição.
+
+## Função de score
+
+O score atual combina:
+
+- `driver_accept_prob` com peso positivo forte
+- `utilization_score` com peso positivo moderado
+- `distance_to_pickup_km` com penalidade
+- `estimated_pickup_delay_min` com penalidade
+
+Esse desenho tenta equilibrar aceitação, eficiência e tempo operacional.
 
 ## Objetivo da otimização
 
@@ -34,6 +56,32 @@ O projeto simula candidatos de matching por pedido e escolhe o melhor entregador
 - `json`
 - `pathlib`
 - `unittest`
+
+## Contrato dos dados
+
+Cada linha representa um candidato `order-driver` com:
+
+- `order_id`
+- `driver_id`
+- `region`
+- `distance_to_pickup_km`
+- `estimated_pickup_delay_min`
+- `driver_accept_prob`
+- `utilization_score`
+
+## Resultados atuais
+
+- `candidate_row_count = 320`
+- `assigned_order_count = 80`
+- `avg_assignment_score = 0.2695`
+- `avg_distance_to_pickup_km = 0.9645`
+- `avg_estimated_pickup_delay_min = 6.4621`
+- `avg_driver_accept_prob = 0.8406`
+
+## Artefatos gerados
+
+- [optimized_assignments.json](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/optimized_assignments.json)
+- [driver_assignment_report.json](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/driver_assignment_report.json)
 
 ## Como executar
 
