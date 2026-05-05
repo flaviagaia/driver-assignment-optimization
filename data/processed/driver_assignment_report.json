@@ -1,0 +1,12 @@
+{
+  "dataset_source": "synthetic_driver_assignment_marketplace",
+  "candidate_row_count": 320,
+  "assigned_order_count": 80,
+  "avg_assignment_score": 0.2695,
+  "avg_distance_to_pickup_km": 0.9645,
+  "avg_estimated_pickup_delay_min": 6.4621,
+  "avg_driver_accept_prob": 0.8406,
+  "optimization_goal": "maximize acceptance and utilization while controlling pickup distance and delay",
+  "assignments_artifact": "/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/optimized_assignments.json",
+  "report_artifact": "/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/driver_assignment_report.json"
+}

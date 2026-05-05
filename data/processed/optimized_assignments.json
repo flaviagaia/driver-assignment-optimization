@@ -1,0 +1,722 @@
+[
+  {
+    "order_id": "ORD-0001",
+    "driver_id": "DRV-0001",
+    "score": 0.2186,
+    "distance_to_pickup_km": 1.17,
+    "estimated_pickup_delay_min": 6.09,
+    "driver_accept_prob": 0.8298,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0002",
+    "driver_id": "DRV-0005",
+    "score": 0.287,
+    "distance_to_pickup_km": 0.91,
+    "estimated_pickup_delay_min": 5.43,
+    "driver_accept_prob": 0.8454,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0003",
+    "driver_id": "DRV-0009",
+    "score": 0.3207,
+    "distance_to_pickup_km": 0.66,
+    "estimated_pickup_delay_min": 5.89,
+    "driver_accept_prob": 0.8604,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0004",
+    "driver_id": "DRV-0014",
+    "score": 0.2079,
+    "distance_to_pickup_km": 1.31,
+    "estimated_pickup_delay_min": 6.6,
+    "driver_accept_prob": 0.7014,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0005",
+    "driver_id": "DRV-0017",
+    "score": 0.2661,
+    "distance_to_pickup_km": 1.04,
+    "estimated_pickup_delay_min": 7.65,
+    "driver_accept_prob": 0.8376,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0006",
+    "driver_id": "DRV-0021",
+    "score": 0.2023,
+    "distance_to_pickup_km": 1.25,
+    "estimated_pickup_delay_min": 6.34,
+    "driver_accept_prob": 0.825,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0007",
+    "driver_id": "DRV-0025",
+    "score": 0.2199,
+    "distance_to_pickup_km": 1.16,
+    "estimated_pickup_delay_min": 6.75,
+    "driver_accept_prob": 0.8304,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0008",
+    "driver_id": "DRV-0029",
+    "score": 0.3217,
+    "distance_to_pickup_km": 0.61,
+    "estimated_pickup_delay_min": 6.04,
+    "driver_accept_prob": 0.8634,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0009",
+    "driver_id": "DRV-0033",
+    "score": 0.1883,
+    "distance_to_pickup_km": 1.41,
+    "estimated_pickup_delay_min": 8.22,
+    "driver_accept_prob": 0.8154,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0010",
+    "driver_id": "DRV-0037",
+    "score": 0.2285,
+    "distance_to_pickup_km": 1.45,
+    "estimated_pickup_delay_min": 7.4,
+    "driver_accept_prob": 0.813,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0011",
+    "driver_id": "DRV-0041",
+    "score": 0.223,
+    "distance_to_pickup_km": 1.07,
+    "estimated_pickup_delay_min": 6.31,
+    "driver_accept_prob": 0.8358,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0012",
+    "driver_id": "DRV-0045",
+    "score": 0.3613,
+    "distance_to_pickup_km": 0.51,
+    "estimated_pickup_delay_min": 4.42,
+    "driver_accept_prob": 0.8694,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0013",
+    "driver_id": "DRV-0049",
+    "score": 0.1474,
+    "distance_to_pickup_km": 1.6,
+    "estimated_pickup_delay_min": 8.22,
+    "driver_accept_prob": 0.804,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0014",
+    "driver_id": "DRV-0053",
+    "score": 0.3263,
+    "distance_to_pickup_km": 0.72,
+    "estimated_pickup_delay_min": 6.15,
+    "driver_accept_prob": 0.8568,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0015",
+    "driver_id": "DRV-0057",
+    "score": 0.3212,
+    "distance_to_pickup_km": 1.0,
+    "estimated_pickup_delay_min": 5.96,
+    "driver_accept_prob": 0.84,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0016",
+    "driver_id": "DRV-0061",
+    "score": 0.1595,
+    "distance_to_pickup_km": 1.32,
+    "estimated_pickup_delay_min": 7.51,
+    "driver_accept_prob": 0.8208,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0017",
+    "driver_id": "DRV-0065",
+    "score": 0.1376,
+    "distance_to_pickup_km": 1.45,
+    "estimated_pickup_delay_min": 8.43,
+    "driver_accept_prob": 0.813,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0018",
+    "driver_id": "DRV-0069",
+    "score": 0.3441,
+    "distance_to_pickup_km": 0.48,
+    "estimated_pickup_delay_min": 5.77,
+    "driver_accept_prob": 0.8712,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0019",
+    "driver_id": "DRV-0073",
+    "score": 0.3162,
+    "distance_to_pickup_km": 0.91,
+    "estimated_pickup_delay_min": 5.79,
+    "driver_accept_prob": 0.8454,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0020",
+    "driver_id": "DRV-0077",
+    "score": 0.3142,
+    "distance_to_pickup_km": 0.93,
+    "estimated_pickup_delay_min": 6.45,
+    "driver_accept_prob": 0.8442,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0021",
+    "driver_id": "DRV-0081",
+    "score": 0.3099,
+    "distance_to_pickup_km": 0.49,
+    "estimated_pickup_delay_min": 5.54,
+    "driver_accept_prob": 0.8706,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0022",
+    "driver_id": "DRV-0085",
+    "score": 0.328,
+    "distance_to_pickup_km": 0.66,
+    "estimated_pickup_delay_min": 4.98,
+    "driver_accept_prob": 0.8604,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0023",
+    "driver_id": "DRV-0089",
+    "score": 0.3565,
+    "distance_to_pickup_km": 0.52,
+    "estimated_pickup_delay_min": 5.21,
+    "driver_accept_prob": 0.8688,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0024",
+    "driver_id": "DRV-0093",
+    "score": 0.3141,
+    "distance_to_pickup_km": 0.88,
+    "estimated_pickup_delay_min": 5.97,
+    "driver_accept_prob": 0.8472,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0025",
+    "driver_id": "DRV-0097",
+    "score": 0.3329,
+    "distance_to_pickup_km": 0.7,
+    "estimated_pickup_delay_min": 6.67,
+    "driver_accept_prob": 0.858,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0026",
+    "driver_id": "DRV-0101",
+    "score": 0.0911,
+    "distance_to_pickup_km": 1.56,
+    "estimated_pickup_delay_min": 8.91,
+    "driver_accept_prob": 0.8064,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0027",
+    "driver_id": "DRV-0105",
+    "score": 0.2411,
+    "distance_to_pickup_km": 0.85,
+    "estimated_pickup_delay_min": 7.18,
+    "driver_accept_prob": 0.849,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0028",
+    "driver_id": "DRV-0109",
+    "score": 0.2357,
+    "distance_to_pickup_km": 1.07,
+    "estimated_pickup_delay_min": 7.22,
+    "driver_accept_prob": 0.8358,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0029",
+    "driver_id": "DRV-0113",
+    "score": 0.3766,
+    "distance_to_pickup_km": 0.47,
+    "estimated_pickup_delay_min": 5.39,
+    "driver_accept_prob": 0.8718,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0030",
+    "driver_id": "DRV-0117",
+    "score": 0.2707,
+    "distance_to_pickup_km": 1.11,
+    "estimated_pickup_delay_min": 7.24,
+    "driver_accept_prob": 0.8334,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0031",
+    "driver_id": "DRV-0121",
+    "score": 0.2357,
+    "distance_to_pickup_km": 0.9,
+    "estimated_pickup_delay_min": 6.51,
+    "driver_accept_prob": 0.846,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0032",
+    "driver_id": "DRV-0125",
+    "score": 0.2144,
+    "distance_to_pickup_km": 1.21,
+    "estimated_pickup_delay_min": 6.75,
+    "driver_accept_prob": 0.8274,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0033",
+    "driver_id": "DRV-0129",
+    "score": 0.3751,
+    "distance_to_pickup_km": 0.49,
+    "estimated_pickup_delay_min": 4.7,
+    "driver_accept_prob": 0.8706,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0034",
+    "driver_id": "DRV-0133",
+    "score": 0.1945,
+    "distance_to_pickup_km": 1.4,
+    "estimated_pickup_delay_min": 8.05,
+    "driver_accept_prob": 0.816,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0035",
+    "driver_id": "DRV-0137",
+    "score": 0.238,
+    "distance_to_pickup_km": 1.2,
+    "estimated_pickup_delay_min": 8.0,
+    "driver_accept_prob": 0.828,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0036",
+    "driver_id": "DRV-0141",
+    "score": 0.191,
+    "distance_to_pickup_km": 1.26,
+    "estimated_pickup_delay_min": 6.68,
+    "driver_accept_prob": 0.8244,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0037",
+    "driver_id": "DRV-0145",
+    "score": 0.2723,
+    "distance_to_pickup_km": 0.91,
+    "estimated_pickup_delay_min": 5.92,
+    "driver_accept_prob": 0.8454,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0038",
+    "driver_id": "DRV-0149",
+    "score": 0.3082,
+    "distance_to_pickup_km": 0.91,
+    "estimated_pickup_delay_min": 5.39,
+    "driver_accept_prob": 0.8454,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0039",
+    "driver_id": "DRV-0153",
+    "score": 0.3834,
+    "distance_to_pickup_km": 0.58,
+    "estimated_pickup_delay_min": 4.76,
+    "driver_accept_prob": 0.8652,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0040",
+    "driver_id": "DRV-0157",
+    "score": 0.3821,
+    "distance_to_pickup_km": 0.7,
+    "estimated_pickup_delay_min": 5.03,
+    "driver_accept_prob": 0.858,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0041",
+    "driver_id": "DRV-0161",
+    "score": 0.1106,
+    "distance_to_pickup_km": 1.44,
+    "estimated_pickup_delay_min": 8.7,
+    "driver_accept_prob": 0.8136,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0042",
+    "driver_id": "DRV-0165",
+    "score": 0.1526,
+    "distance_to_pickup_km": 1.36,
+    "estimated_pickup_delay_min": 8.26,
+    "driver_accept_prob": 0.8184,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0043",
+    "driver_id": "DRV-0169",
+    "score": 0.3049,
+    "distance_to_pickup_km": 0.67,
+    "estimated_pickup_delay_min": 6.38,
+    "driver_accept_prob": 0.8598,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0044",
+    "driver_id": "DRV-0173",
+    "score": 0.2997,
+    "distance_to_pickup_km": 0.79,
+    "estimated_pickup_delay_min": 6.78,
+    "driver_accept_prob": 0.8526,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0045",
+    "driver_id": "DRV-0177",
+    "score": 0.2254,
+    "distance_to_pickup_km": 1.53,
+    "estimated_pickup_delay_min": 7.21,
+    "driver_accept_prob": 0.8082,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0046",
+    "driver_id": "DRV-0181",
+    "score": 0.1824,
+    "distance_to_pickup_km": 1.27,
+    "estimated_pickup_delay_min": 6.93,
+    "driver_accept_prob": 0.8238,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0047",
+    "driver_id": "DRV-0185",
+    "score": 0.3293,
+    "distance_to_pickup_km": 0.4,
+    "estimated_pickup_delay_min": 5.89,
+    "driver_accept_prob": 0.876,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0048",
+    "driver_id": "DRV-0189",
+    "score": 0.2346,
+    "distance_to_pickup_km": 1.2,
+    "estimated_pickup_delay_min": 6.78,
+    "driver_accept_prob": 0.828,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0049",
+    "driver_id": "DRV-0193",
+    "score": 0.3168,
+    "distance_to_pickup_km": 0.88,
+    "estimated_pickup_delay_min": 5.88,
+    "driver_accept_prob": 0.8472,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0050",
+    "driver_id": "DRV-0197",
+    "score": 0.3443,
+    "distance_to_pickup_km": 0.76,
+    "estimated_pickup_delay_min": 6.07,
+    "driver_accept_prob": 0.8544,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0051",
+    "driver_id": "DRV-0201",
+    "score": 0.2522,
+    "distance_to_pickup_km": 0.93,
+    "estimated_pickup_delay_min": 5.85,
+    "driver_accept_prob": 0.8442,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0052",
+    "driver_id": "DRV-0205",
+    "score": 0.2217,
+    "distance_to_pickup_km": 1.16,
+    "estimated_pickup_delay_min": 6.69,
+    "driver_accept_prob": 0.8304,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0053",
+    "driver_id": "DRV-0209",
+    "score": 0.3219,
+    "distance_to_pickup_km": 0.69,
+    "estimated_pickup_delay_min": 5.74,
+    "driver_accept_prob": 0.8586,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0054",
+    "driver_id": "DRV-0213",
+    "score": 0.2993,
+    "distance_to_pickup_km": 0.99,
+    "estimated_pickup_delay_min": 6.06,
+    "driver_accept_prob": 0.8406,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0055",
+    "driver_id": "DRV-0217",
+    "score": 0.3479,
+    "distance_to_pickup_km": 0.61,
+    "estimated_pickup_delay_min": 6.5,
+    "driver_accept_prob": 0.8634,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0056",
+    "driver_id": "DRV-0221",
+    "score": 0.155,
+    "distance_to_pickup_km": 1.2,
+    "estimated_pickup_delay_min": 8.1,
+    "driver_accept_prob": 0.828,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0057",
+    "driver_id": "DRV-0225",
+    "score": 0.1638,
+    "distance_to_pickup_km": 1.4,
+    "estimated_pickup_delay_min": 7.74,
+    "driver_accept_prob": 0.816,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0058",
+    "driver_id": "DRV-0229",
+    "score": 0.2007,
+    "distance_to_pickup_km": 1.32,
+    "estimated_pickup_delay_min": 7.47,
+    "driver_accept_prob": 0.8208,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0059",
+    "driver_id": "DRV-0233",
+    "score": 0.2942,
+    "distance_to_pickup_km": 1.05,
+    "estimated_pickup_delay_min": 6.01,
+    "driver_accept_prob": 0.837,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0060",
+    "driver_id": "DRV-0237",
+    "score": 0.3385,
+    "distance_to_pickup_km": 0.9,
+    "estimated_pickup_delay_min": 5.75,
+    "driver_accept_prob": 0.846,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0061",
+    "driver_id": "DRV-0241",
+    "score": 0.2779,
+    "distance_to_pickup_km": 0.86,
+    "estimated_pickup_delay_min": 5.25,
+    "driver_accept_prob": 0.8484,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0062",
+    "driver_id": "DRV-0245",
+    "score": 0.2246,
+    "distance_to_pickup_km": 1.06,
+    "estimated_pickup_delay_min": 6.96,
+    "driver_accept_prob": 0.8364,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0063",
+    "driver_id": "DRV-0249",
+    "score": 0.3029,
+    "distance_to_pickup_km": 0.89,
+    "estimated_pickup_delay_min": 5.64,
+    "driver_accept_prob": 0.8466,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0064",
+    "driver_id": "DRV-0253",
+    "score": 0.3807,
+    "distance_to_pickup_km": 0.43,
+    "estimated_pickup_delay_min": 5.4,
+    "driver_accept_prob": 0.8742,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0065",
+    "driver_id": "DRV-0257",
+    "score": 0.2511,
+    "distance_to_pickup_km": 1.31,
+    "estimated_pickup_delay_min": 7.16,
+    "driver_accept_prob": 0.8214,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0066",
+    "driver_id": "DRV-0261",
+    "score": 0.1182,
+    "distance_to_pickup_km": 1.6,
+    "estimated_pickup_delay_min": 7.86,
+    "driver_accept_prob": 0.804,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0067",
+    "driver_id": "DRV-0265",
+    "score": 0.3718,
+    "distance_to_pickup_km": 0.42,
+    "estimated_pickup_delay_min": 4.4,
+    "driver_accept_prob": 0.8748,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0068",
+    "driver_id": "DRV-0269",
+    "score": 0.3309,
+    "distance_to_pickup_km": 0.6,
+    "estimated_pickup_delay_min": 5.77,
+    "driver_accept_prob": 0.864,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0069",
+    "driver_id": "DRV-0273",
+    "score": 0.3145,
+    "distance_to_pickup_km": 0.77,
+    "estimated_pickup_delay_min": 6.36,
+    "driver_accept_prob": 0.8538,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0070",
+    "driver_id": "DRV-0277",
+    "score": 0.3758,
+    "distance_to_pickup_km": 0.52,
+    "estimated_pickup_delay_min": 5.9,
+    "driver_accept_prob": 0.8688,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0071",
+    "driver_id": "DRV-0281",
+    "score": 0.2466,
+    "distance_to_pickup_km": 0.91,
+    "estimated_pickup_delay_min": 6.11,
+    "driver_accept_prob": 0.8454,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0072",
+    "driver_id": "DRV-0285",
+    "score": 0.1923,
+    "distance_to_pickup_km": 1.16,
+    "estimated_pickup_delay_min": 7.67,
+    "driver_accept_prob": 0.8304,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0073",
+    "driver_id": "DRV-0289",
+    "score": 0.2535,
+    "distance_to_pickup_km": 1.05,
+    "estimated_pickup_delay_min": 6.7,
+    "driver_accept_prob": 0.837,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0074",
+    "driver_id": "DRV-0293",
+    "score": 0.211,
+    "distance_to_pickup_km": 1.46,
+    "estimated_pickup_delay_min": 7.28,
+    "driver_accept_prob": 0.8124,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0075",
+    "driver_id": "DRV-0297",
+    "score": 0.3498,
+    "distance_to_pickup_km": 0.65,
+    "estimated_pickup_delay_min": 6.29,
+    "driver_accept_prob": 0.861,
+    "utilization_score": 0.8
+  },
+  {
+    "order_id": "ORD-0076",
+    "driver_id": "DRV-0301",
+    "score": 0.3028,
+    "distance_to_pickup_km": 0.5,
+    "estimated_pickup_delay_min": 5.74,
+    "driver_accept_prob": 0.87,
+    "utilization_score": 0.4
+  },
+  {
+    "order_id": "ORD-0077",
+    "driver_id": "DRV-0305",
+    "score": 0.3508,
+    "distance_to_pickup_km": 0.51,
+    "estimated_pickup_delay_min": 4.77,
+    "driver_accept_prob": 0.8694,
+    "utilization_score": 0.5
+  },
+  {
+    "order_id": "ORD-0078",
+    "driver_id": "DRV-0309",
+    "score": 0.2158,
+    "distance_to_pickup_km": 1.3,
+    "estimated_pickup_delay_min": 7.04,
+    "driver_accept_prob": 0.822,
+    "utilization_score": 0.6
+  },
+  {
+    "order_id": "ORD-0079",
+    "driver_id": "DRV-0313",
+    "score": 0.2587,
+    "distance_to_pickup_km": 1.04,
+    "estimated_pickup_delay_min": 7.23,
+    "driver_accept_prob": 0.8376,
+    "utilization_score": 0.7
+  },
+  {
+    "order_id": "ORD-0080",
+    "driver_id": "DRV-0317",
+    "score": 0.3747,
+    "distance_to_pickup_km": 0.74,
+    "estimated_pickup_delay_min": 5.13,
+    "driver_accept_prob": 0.8556,
+    "utilization_score": 0.8
+  }
+]

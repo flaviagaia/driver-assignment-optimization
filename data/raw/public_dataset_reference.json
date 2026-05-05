@@ -1,0 +1,11 @@
+{
+  "primary_reference": {
+    "name": "NYC TLC Trip Record Data",
+    "url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+    "role": "Public mobility marketplace reference used here as inspiration for distance, utilization, and last-mile matching dynamics."
+  },
+  "notes": [
+    "The runtime dataset is synthetic and represents candidate order-driver matches.",
+    "The project focuses on dispatch scoring and assignment quality rather than exact route optimization."
+  ]
+}
