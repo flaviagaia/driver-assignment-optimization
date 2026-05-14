@@ -7,6 +7,6 @@
   "avg_estimated_pickup_delay_min": 6.4621,
   "avg_driver_accept_prob": 0.8406,
   "optimization_goal": "maximize acceptance and utilization while controlling pickup distance and delay",
-  "assignments_artifact": "/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/optimized_assignments.json",
-  "report_artifact": "/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/driver_assignment_report.json"
+  "assignments_artifact": "data/processed/optimized_assignments.json",
+  "report_artifact": "data/processed/driver_assignment_report.json"
 }

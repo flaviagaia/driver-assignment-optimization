@@ -66,15 +66,15 @@ Cada linha representa um candidato `order-driver` com:
 
 ### Artefatos gerados
 
-- [optimized_assignments.json](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/optimized_assignments.json)
-- [driver_assignment_report.json](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/driver_assignment_report.json)
+- [optimized_assignments.json](data/processed/optimized_assignments.json)
+- [driver_assignment_report.json](data/processed/driver_assignment_report.json)
 
 ### Arquivos principais
 
-- [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/main.py)
-- [src/data_factory.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/src/data_factory.py)
-- [src/modeling.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/src/modeling.py)
-- [tests/test_project.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/tests/test_project.py)
+- [main.py](main.py)
+- [src/data_factory.py](src/data_factory.py)
+- [src/modeling.py](src/modeling.py)
+- [tests/test_project.py](tests/test_project.py)
 
 ### Como executar
 
@@ -84,9 +84,6 @@ python3 -m unittest discover -s tests -v
 python3 -m py_compile main.py src/data_factory.py src/modeling.py tests/test_project.py
 ```
 
-### Como defender em entrevista
-
-> Para driver assignment, eu começaria com uma política de ranking simples e auditável, combinando aceitação esperada, distância ao pickup, delay estimado e utilização. Depois, com essa baseline estável, evoluiria para uma camada mais sofisticada de matching ou optimization.
 
 ## English
 
@@ -154,15 +151,15 @@ Each row represents one `order-driver` candidate with:
 
 ### Generated artifacts
 
-- [optimized_assignments.json](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/optimized_assignments.json)
-- [driver_assignment_report.json](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/data/processed/driver_assignment_report.json)
+- [optimized_assignments.json](data/processed/optimized_assignments.json)
+- [driver_assignment_report.json](data/processed/driver_assignment_report.json)
 
 ### Main files
 
-- [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/main.py)
-- [src/data_factory.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/src/data_factory.py)
-- [src/modeling.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/src/modeling.py)
-- [tests/test_project.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/driver-assignment-optimization/tests/test_project.py)
+- [main.py](main.py)
+- [src/data_factory.py](src/data_factory.py)
+- [src/modeling.py](src/modeling.py)
+- [tests/test_project.py](tests/test_project.py)
 
 ### How to run
 
@@ -172,6 +169,3 @@ python3 -m unittest discover -s tests -v
 python3 -m py_compile main.py src/data_factory.py src/modeling.py tests/test_project.py
 ```
 
-### Interview framing
-
-> For driver assignment, I would start with a simple and auditable ranking policy combining expected acceptance, pickup distance, estimated delay, and utilization. Then, once that baseline is stable, I would evolve toward a more advanced matching or optimization layer.
